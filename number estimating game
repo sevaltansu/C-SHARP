@@ -13,13 +13,13 @@ namespace FOR
             Random rnd = new Random();
             int uretilensayi = rnd.Next(10, 20);
             int hak = 3;
-            Console.WriteLine("ÜRETÝLEN SAYI:{0}", uretilensayi);
+            Console.WriteLine("ÃœRETÄ°LEN SAYI:{0}", uretilensayi);
             BASADON:
-            Console.WriteLine("BÝR TAHMÝNDE BULUNUN : ");
+            Console.WriteLine("BÄ°R TAHMÄ°NDE BULUNUN : ");
             int tahmin = Convert.ToInt32(Console.ReadLine());
             if (uretilensayi==tahmin)
             {
-                Console.WriteLine("TEBRÝKLER! DOÐRU TAHMÝN! PUANINIZ {0}", hak * 10);
+                Console.WriteLine("TEBRÄ°KLER! DOÄžRU TAHMÄ°N! PUANINIZ {0}", hak * 10);
 
 
             }
@@ -28,12 +28,12 @@ namespace FOR
                 hak--;
                 if (hak==0)
                 {
-                    Console.WriteLine("OYUNU KAYBETTÝNÝZ!");
+                    Console.WriteLine("OYUNU KAYBETTÄ°NÄ°Z!");
 
                 }
                 else
                 {
-                    Console.WriteLine("TAHMÝNÝNÝZÝ BÜYÜLTÜN");
+                    Console.WriteLine("TAHMÄ°NÄ°NÄ°ZÄ° BÃœYÃœLTÃœN");
                     goto BASADON;
                    
                 }
@@ -48,7 +48,7 @@ namespace FOR
                 }
                 else
                 {
-                    Console.WriteLine("TAHMÝNÝNÝZÝ KÜÇÜLTÜN ");
+                    Console.WriteLine("TAHMÄ°NÄ°NÄ°ZÄ° KÃœÃ‡ÃœLTÃœN ");
                     goto BASADON;
                 }
 
